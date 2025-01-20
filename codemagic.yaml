@@ -1,7 +1,6 @@
 workflows:
   android-native-workflow:
     name: Build Android Native App
-    instance_type: windows_x2
     environment:
       vars:
         ANDROID_KEYSTORE_PATH: $FCI_BUILD_DIR/android/keystore.jks
